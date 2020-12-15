@@ -1,0 +1,9 @@
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\FourOutingsRepository\bin\Debug\netstandard2.0\FourOutingsRepository.deps.json
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\FourOutingsRepository\bin\Debug\netstandard2.0\FourOutingsRepository.dll
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\FourOutingsRepository\bin\Debug\netstandard2.0\FourOutingsRepository.pdb
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\FourOutingsRepository\obj\Debug\netstandard2.0\FourOutingsRepository.csprojAssemblyReference.cache
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\FourOutingsRepository\obj\Debug\netstandard2.0\FourOutingsRepository.AssemblyInfoInputs.cache
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\FourOutingsRepository\obj\Debug\netstandard2.0\FourOutingsRepository.AssemblyInfo.cs
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\FourOutingsRepository\obj\Debug\netstandard2.0\FourOutingsRepository.csproj.CoreCompileInputs.cache
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\FourOutingsRepository\obj\Debug\netstandard2.0\FourOutingsRepository.dll
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\FourOutingsRepository\obj\Debug\netstandard2.0\FourOutingsRepository.pdb

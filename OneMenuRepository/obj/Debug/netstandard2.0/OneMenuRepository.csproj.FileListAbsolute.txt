@@ -1,0 +1,9 @@
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\OneMenuRepository\obj\Debug\netstandard2.0\OneMenuRepository.csprojAssemblyReference.cache
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\OneMenuRepository\obj\Debug\netstandard2.0\OneMenuRepository.AssemblyInfoInputs.cache
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\OneMenuRepository\obj\Debug\netstandard2.0\OneMenuRepository.AssemblyInfo.cs
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\OneMenuRepository\obj\Debug\netstandard2.0\OneMenuRepository.csproj.CoreCompileInputs.cache
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\OneMenuRepository\bin\Debug\netstandard2.0\OneMenuRepository.deps.json
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\OneMenuRepository\bin\Debug\netstandard2.0\OneMenuRepository.dll
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\OneMenuRepository\bin\Debug\netstandard2.0\OneMenuRepository.pdb
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\OneMenuRepository\obj\Debug\netstandard2.0\OneMenuRepository.dll
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\OneMenuRepository\obj\Debug\netstandard2.0\OneMenuRepository.pdb

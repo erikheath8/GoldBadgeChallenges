@@ -1,0 +1,10 @@
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\TwoClaimsMenu\bin\Debug\TwoClaimsMenu.exe.config
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\TwoClaimsMenu\bin\Debug\TwoClaimsMenu.exe
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\TwoClaimsMenu\bin\Debug\TwoClaimsMenu.pdb
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\TwoClaimsMenu\bin\Debug\TwoClaimRepository.dll
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\TwoClaimsMenu\bin\Debug\TwoClaimRepository.pdb
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\TwoClaimsMenu\obj\Debug\TwoClaimsMenu.csprojAssemblyReference.cache
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\TwoClaimsMenu\obj\Debug\TwoClaimsMenu.csproj.CoreCompileInputs.cache
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\TwoClaimsMenu\obj\Debug\TwoClaimsMenu.csproj.CopyComplete
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\TwoClaimsMenu\obj\Debug\TwoClaimsMenu.exe
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\TwoClaimsMenu\obj\Debug\TwoClaimsMenu.pdb

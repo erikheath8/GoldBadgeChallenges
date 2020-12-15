@@ -1,0 +1,10 @@
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\ThreeKomodoInsuranceMenu\obj\Debug\ThreeBadgeMenu.csprojAssemblyReference.cache
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\ThreeKomodoInsuranceMenu\obj\Debug\ThreeBadgeMenu.csproj.CoreCompileInputs.cache
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\ThreeKomodoInsuranceMenu\bin\Debug\ThreeKomodoInsuranceMenu.exe.config
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\ThreeKomodoInsuranceMenu\bin\Debug\ThreeKomodoInsuranceMenu.exe
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\ThreeKomodoInsuranceMenu\bin\Debug\ThreeKomodoInsuranceMenu.pdb
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\ThreeKomodoInsuranceMenu\bin\Debug\ThreeBadgeRepository.dll
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\ThreeKomodoInsuranceMenu\bin\Debug\ThreeBadgeRepository.pdb
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\ThreeKomodoInsuranceMenu\obj\Debug\ThreeBadgeMenu.csproj.CopyComplete
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\ThreeKomodoInsuranceMenu\obj\Debug\ThreeKomodoInsuranceMenu.exe
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\ThreeKomodoInsuranceMenu\obj\Debug\ThreeKomodoInsuranceMenu.pdb

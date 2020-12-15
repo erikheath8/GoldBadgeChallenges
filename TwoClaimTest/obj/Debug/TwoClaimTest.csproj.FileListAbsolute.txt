@@ -1,0 +1,2 @@
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\TwoClaimTest\obj\Debug\TwoClaimTest.csprojAssemblyReference.cache
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\TwoClaimTest\obj\Debug\TwoClaimTest.csproj.CoreCompileInputs.cache

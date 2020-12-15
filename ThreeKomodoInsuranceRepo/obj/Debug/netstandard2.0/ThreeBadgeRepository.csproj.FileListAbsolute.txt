@@ -1,0 +1,9 @@
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\ThreeKomodoInsuranceRepo\obj\Debug\netstandard2.0\ThreeBadgeRepository.csprojAssemblyReference.cache
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\ThreeKomodoInsuranceRepo\obj\Debug\netstandard2.0\ThreeBadgeRepository.AssemblyInfoInputs.cache
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\ThreeKomodoInsuranceRepo\obj\Debug\netstandard2.0\ThreeBadgeRepository.AssemblyInfo.cs
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\ThreeKomodoInsuranceRepo\obj\Debug\netstandard2.0\ThreeBadgeRepository.csproj.CoreCompileInputs.cache
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\ThreeKomodoInsuranceRepo\bin\Debug\netstandard2.0\ThreeBadgeRepository.deps.json
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\ThreeKomodoInsuranceRepo\bin\Debug\netstandard2.0\ThreeBadgeRepository.dll
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\ThreeKomodoInsuranceRepo\bin\Debug\netstandard2.0\ThreeBadgeRepository.pdb
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\ThreeKomodoInsuranceRepo\obj\Debug\netstandard2.0\ThreeBadgeRepository.dll
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\ThreeKomodoInsuranceRepo\obj\Debug\netstandard2.0\ThreeBadgeRepository.pdb
