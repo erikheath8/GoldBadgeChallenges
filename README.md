@@ -25,13 +25,7 @@ Basic .Net Libraries with Visual Studio Community Edition 2019 IDE
 			- One Repository for the contructor program file and the Repository
 			- One Test Project for the Unit Tests 
 	
-	
-## Connect with me:
-
-[website]: https://www.linkedin.com/in/erik-heath-77174b7b/
 
 
-
-	- 
 	
 	
