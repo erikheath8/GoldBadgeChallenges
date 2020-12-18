@@ -1,10 +1,10 @@
-C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\FourOutingsMenu\obj\Debug\FourOutingsMenu.csprojAssemblyReference.cache
-C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\FourOutingsMenu\obj\Debug\FourOutingsMenu.csproj.CoreCompileInputs.cache
 C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\FourOutingsMenu\bin\Debug\FourOutingsMenu.exe.config
 C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\FourOutingsMenu\bin\Debug\FourOutingsMenu.exe
 C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\FourOutingsMenu\bin\Debug\FourOutingsMenu.pdb
 C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\FourOutingsMenu\bin\Debug\FourOutingsRepository.dll
 C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\FourOutingsMenu\bin\Debug\FourOutingsRepository.pdb
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\FourOutingsMenu\obj\Debug\FourOutingsMenu.csprojAssemblyReference.cache
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\FourOutingsMenu\obj\Debug\FourOutingsMenu.csproj.CoreCompileInputs.cache
 C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\FourOutingsMenu\obj\Debug\FourOutingsMenu.csproj.CopyComplete
 C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\FourOutingsMenu\obj\Debug\FourOutingsMenu.exe
 C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\FourOutingsMenu\obj\Debug\FourOutingsMenu.pdb

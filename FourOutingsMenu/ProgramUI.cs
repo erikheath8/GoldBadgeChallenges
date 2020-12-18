@@ -63,7 +63,7 @@ namespace FourOutingsMenu
         }
 
         //#1 on munu
-        public void ViewOutings()
+        private void ViewOutings()
         {
             Clear();
             List<Outings> viewOutingsList = _outingsRepo.GetOutingsList();
@@ -73,13 +73,13 @@ namespace FourOutingsMenu
                 WriteLine($"\nOuting Type: {viewOutings.OutingType}" +
                     $"\nNumber of People Attending: {viewOutings.NumOfPeople}" +
                     $"\nOuting Date: {viewOutings.DateOfEvent}" +
-                    $"\nCost of the Event: {viewOutings.CostOfEvent}" +
-                    $"\nCost Per Person: {viewOutings.CostPerPerson}");
+                    $"\nCost of the Event: ${viewOutings.CostOfEvent}" +
+                    $"\nCost Per Person: ${viewOutings.CostPerPerson}");
             }
         }
 
         // #2 on menu
-        public void CreateNewOuting()
+        private void CreateNewOuting()
         {
             Clear();
             Outings newOuting = new Outings();
@@ -107,7 +107,7 @@ namespace FourOutingsMenu
         }
 
         // #3 on the menu
-        public void OutingsByTypeCost()
+        private void OutingsByTypeCost()
         {
             Clear();
             WriteLine("\nEnter the Number Type for Outings to View:\n" +
@@ -148,26 +148,24 @@ namespace FourOutingsMenu
             WriteLine($"\n{typeStr} Outings Cost: ${typeCost}");
         }
 
-        public void OutingsTotalCost()
+        private void OutingsTotalCost()
         {
             Clear();
             Double? outingsTotal = _outingsRepo.GetOutingsTotalCost();
 
-            WriteLine($"\n${outingsTotal}");
+            WriteLine($"\nTotal Outings Cost: ${outingsTotal}");
         }
 
         //Set content
-        public void SetContent()
+        private void SetContent()
         {
-            Outings outing1 = new Outings(OutingType.AmusementPark, 35, "6/15/2021", 35000, 1000);
-            Outings outing2 = new Outings(OutingType.Bowling, 10, "7/15/2021", 1000, 100);
-            Outings outing3 = new Outings(OutingType.Concert, 50, "8/31/2021", 15000, 300);
+            Outings outing1 = new Outings(OutingType.AmusementPark, 35, "6/15/2021", 0, 1000);
+            Outings outing2 = new Outings(OutingType.Bowling, 10, "7/15/2021", 0, 100);
+            Outings outing3 = new Outings(OutingType.Concert, 50, "8/31/2021", 0, 300);
 
             _outingsRepo.AddOutingsToList(outing1);
             _outingsRepo.AddOutingsToList(outing2);
             _outingsRepo.AddOutingsToList(outing3);
         }
-
-
     }
 }

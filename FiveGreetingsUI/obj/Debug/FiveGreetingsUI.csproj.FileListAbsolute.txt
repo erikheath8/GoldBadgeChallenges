@@ -1,0 +1,10 @@
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\FiveGreetingsUI\bin\Debug\FiveGreetingsUI.exe.config
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\FiveGreetingsUI\bin\Debug\FiveGreetingsUI.exe
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\FiveGreetingsUI\bin\Debug\FiveGreetingsUI.pdb
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\FiveGreetingsUI\bin\Debug\FiveGreetingsRepository.dll
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\FiveGreetingsUI\bin\Debug\FiveGreetingsRepository.pdb
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\FiveGreetingsUI\obj\Debug\FiveGreetingsUI.csprojAssemblyReference.cache
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\FiveGreetingsUI\obj\Debug\FiveGreetingsUI.csproj.CoreCompileInputs.cache
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\FiveGreetingsUI\obj\Debug\FiveGreetingsUI.csproj.CopyComplete
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\FiveGreetingsUI\obj\Debug\FiveGreetingsUI.exe
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\FiveGreetingsUI\obj\Debug\FiveGreetingsUI.pdb

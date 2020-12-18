@@ -8,14 +8,14 @@ namespace TwoClaimsTests
     [TestClass]
     public class ClaimsTests
     {
+        private Claim testClaim = new Claim(1, "Car", "Car Accident on Highway 1", 40000.00, "6/05/18", "6/07/18", true);
+
         private ClaimsRepositiory _testClaimsRepo;
 
         [TestMethod]
         public void AddQueueContentTest()
         {
             _testClaimsRepo = new ClaimsRepositiory();
-
-            Claim testClaim = new Claim(1, "Car", "Car Accident on Highway 1", 40000.00, "6/05/18", "6/07/18", true);
 
             _testClaimsRepo.AddContentToQue(testClaim);
 
@@ -33,9 +33,7 @@ namespace TwoClaimsTests
             _testClaimsRepo = new ClaimsRepositiory();
 
             Queue<Claim> testQueue = new Queue<Claim>();
-
-            Claim testClaim = new Claim(1, "Car", "Car Accident on Highway 1", 40000.00, "6/05/18", "6/07/18", true);
-
+                        
             testQueue.Enqueue(testClaim);
 
             _testClaimsRepo.CopyContentQue(testQueue);
@@ -52,9 +50,7 @@ namespace TwoClaimsTests
         public void GetQueueTest()
         {
             _testClaimsRepo = new ClaimsRepositiory();
-
-            Claim testClaim = new Claim(1, "Car", "Car Accident on Highway 1", 40000.00, "6/05/18", "6/07/18", true);
-
+                        
             _testClaimsRepo.AddContentToQue(testClaim);
 
             Queue<Claim> getTestQueues = _testClaimsRepo.GetQueue();

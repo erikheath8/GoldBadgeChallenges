@@ -90,7 +90,6 @@ namespace ThreeBadgeTests
         }
 
         //Helper Functions
-
         public void SetContent()
         {
             _testBadgeRepo = new BadgeRepository();

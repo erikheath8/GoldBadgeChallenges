@@ -71,7 +71,7 @@ namespace ThreeBadgeMenu
         }
 
         //#1 on the menu
-        public void CreateBadge()
+        private void CreateBadge()
         {
             Clear();
             List<string> newDoors = new List<string>();
@@ -114,7 +114,7 @@ namespace ThreeBadgeMenu
         }
 
         //#2 on the menu
-        public void RemoveDoor()
+        private void RemoveDoor()
         {
             Clear();
             WriteLine("\nPlease Enter the Badge ID to Update.");
@@ -127,7 +127,7 @@ namespace ThreeBadgeMenu
         }
 
         // #3 on the menu
-        public void AddAddtionalDoor()
+        private void AddAddtionalDoor()
         {
             Clear();
             WriteLine("\nPlease Enter the Badge ID to Update.");
@@ -140,7 +140,7 @@ namespace ThreeBadgeMenu
         }
 
         //#4 Remove/Delete all Doors from a Badge
-        public void DeleteAllDoors()
+        private void DeleteAllDoors()
         {
             Clear();
             WriteLine("\nPlease Enter the Badge ID to Remove ALL Door Access From.");
@@ -151,7 +151,7 @@ namespace ThreeBadgeMenu
         }
 
         //#5 Remove Badge
-        public void DeleteId()
+        private void DeleteId()
         {
             Clear();
             WriteLine("\nPlease Enter the Badge ID to Delete.");
@@ -162,7 +162,7 @@ namespace ThreeBadgeMenu
         }
 
         //#6 show all badge and doors
-        public void ShowBadgesAndDoors()
+        private void ShowBadgesAndDoors()
         {
             Clear();
             Dictionary<int, Badge> keyValuePairs = _BadgeRepository.GetDictionary();
@@ -183,7 +183,7 @@ namespace ThreeBadgeMenu
             }
         }
 
-       public void SeedContent()
+       private void SeedContent()
        {
             var badge1 = new Badge(1, new List<string> { "A1", "A2", "A3" });
             _BadgeRepository.AddContent(badge1.BadgeID, badge1);

@@ -1,0 +1,9 @@
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\SixGreenPlanRepository\bin\Debug\netstandard2.0\SixGreenPlanRepository.deps.json
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\SixGreenPlanRepository\bin\Debug\netstandard2.0\SixGreenPlanRepository.dll
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\SixGreenPlanRepository\bin\Debug\netstandard2.0\SixGreenPlanRepository.pdb
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\SixGreenPlanRepository\obj\Debug\netstandard2.0\SixGreenPlanRepository.csprojAssemblyReference.cache
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\SixGreenPlanRepository\obj\Debug\netstandard2.0\SixGreenPlanRepository.AssemblyInfoInputs.cache
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\SixGreenPlanRepository\obj\Debug\netstandard2.0\SixGreenPlanRepository.AssemblyInfo.cs
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\SixGreenPlanRepository\obj\Debug\netstandard2.0\SixGreenPlanRepository.csproj.CoreCompileInputs.cache
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\SixGreenPlanRepository\obj\Debug\netstandard2.0\SixGreenPlanRepository.dll
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\SixGreenPlanRepository\obj\Debug\netstandard2.0\SixGreenPlanRepository.pdb

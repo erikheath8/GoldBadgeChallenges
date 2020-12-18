@@ -1,0 +1,9 @@
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\FiveGreetingsRepository\bin\Debug\netstandard2.0\FiveGreetingsRepository.deps.json
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\FiveGreetingsRepository\bin\Debug\netstandard2.0\FiveGreetingsRepository.dll
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\FiveGreetingsRepository\bin\Debug\netstandard2.0\FiveGreetingsRepository.pdb
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\FiveGreetingsRepository\obj\Debug\netstandard2.0\FiveGreetingsRepository.csprojAssemblyReference.cache
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\FiveGreetingsRepository\obj\Debug\netstandard2.0\FiveGreetingsRepository.AssemblyInfoInputs.cache
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\FiveGreetingsRepository\obj\Debug\netstandard2.0\FiveGreetingsRepository.AssemblyInfo.cs
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\FiveGreetingsRepository\obj\Debug\netstandard2.0\FiveGreetingsRepository.csproj.CoreCompileInputs.cache
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\FiveGreetingsRepository\obj\Debug\netstandard2.0\FiveGreetingsRepository.dll
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\FiveGreetingsRepository\obj\Debug\netstandard2.0\FiveGreetingsRepository.pdb

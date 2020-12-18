@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "F8X9Lk3D3HlFvhFtg2jL+VFFJ7dcgf4czatcsF+2Q6HqQUi1/IfZ12YgpozdN6DsYWWlZ3Gq8a/yEcQwT5pq8g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\fzr60\\Documents\\projects\\elevenfifty\\assignment\\goldBadge\\OneCafeMenu\\FiveGreetingsRepository\\FiveGreetingsRepository.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fzr60\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\fzr60\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

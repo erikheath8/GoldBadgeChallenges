@@ -227,9 +227,9 @@ namespace OneCafeMenu
 
             string menuItemName = oldMenuItem.ItemName;
             string menuDescription = oldMenuItem.Description;
+
             List<string> oldMenuIngrediants = new List<string>(oldMenuItem.Ingrediants);
             double oldMenuPrice = oldMenuItem.Price;
-            int oldMenuId = oldMenuItem.MenuNum;
 
             WriteLine($"\nCurrent Menu Name: \"{menuItemName}\". \nEnter an Updated Menu Name:");
             string newMenuName = ReadLine();

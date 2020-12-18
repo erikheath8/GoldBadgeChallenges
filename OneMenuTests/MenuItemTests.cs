@@ -10,28 +10,27 @@ namespace OneMenuTests
     {
         private MenuRepository _testMenuRepo;
 
+        private string itemNameTie = "Tie Burger";
+        private string itemNamePizza = "Supreme Pizza";
+
+        private MenuItem MenuItemTieBurger = new MenuItem("Tie Burger", "Empire Flavored TIE Fighter Burger", new List<string> {"Metal Bun", "1/4LB Tie Beef",
+            "Cheese", "Ketchup", "Mayo", "Blasters"}, 14.50, 1);
+
+        private MenuItem menuItemPizza = new MenuItem("Supreme Pizza", "Hand Tossed, Wood Fired Hand Pizza", new List<string> { "Medium Hand Tossed Crust",
+            "Cheese", "Tomato Sauce", "Pepporoni", "Suasage", "Black Olives"}, 15.75, 2);
+
         [TestMethod]
         public void AddMenuItemsTest()
         {
-            _testMenuRepo = new MenuRepository();
-
-            MenuItem addMenuItem = new MenuItem("Tie Burger", "Empire Flavored TIE Fighter Burger", new List<string> {"Metal Bun", "1/4LB Tie Beef",
-            "Cheese", "Ketchup", "Mayo", "Blasters"}, 14.50, 1);
-
-            _testMenuRepo.AddMenuItem(addMenuItem);
-
-            MenuItem itemName = _testMenuRepo.GetByItemName("Tie Burger");
-
-            string ItemNameActual = itemName.ItemName;
-            string ItemNameExpected = addMenuItem.ItemName;
-
-            Assert.AreEqual(ItemNameExpected, ItemNameActual);
+            SetContentOneItem();
+            MenuItem itemName = _testMenuRepo.GetByItemName(itemNameTie);
+            Assert.IsNotNull(itemName);
         }
 
         [TestMethod]
         public void GetItemMenuListTest()
         {
-            _testMenuRepo = new MenuRepository();
+            SetContentOneItem();
 
             MenuItem testMenuItem = new MenuItem("Burger", "Flavored Burger", new List<string> {"1/4LB Beef",
             "Cheese", "Ketchup"}, 11.50, 3);
@@ -39,115 +38,68 @@ namespace OneMenuTests
             List<MenuItem> testItemList = new List<MenuItem>();
             testItemList.Add(testMenuItem);
 
-            MenuItem addMenuItem = new MenuItem("Tie Burger", "Empire Flavored TIE Fighter Burger", new List<string> {"Metal Bun", "1/4LB Tie Beef",
-            "Cheese", "Ketchup", "Mayo", "Blasters"}, 14.50, 1);
+            List<MenuItem> acutalTestList = _testMenuRepo.GetMenuItemList();
 
-            _testMenuRepo.AddMenuItem(addMenuItem);
-                        
-            List<MenuItem> testList = _testMenuRepo.GetMenuItemList();
-
-            Assert.AreNotEqual(testList, testItemList);
+            Assert.AreNotEqual(acutalTestList, testItemList);
         }
 
         [TestMethod]
         public void CopyItemByIdToIdNumTest()
         {
-            _testMenuRepo = new MenuRepository();
-
-            MenuItem addMenuItem = new MenuItem("Tie Burger", "Empire Flavored TIE Fighter Burger", new List<string> {"Metal Bun", "1/4LB Tie Beef",
-            "Cheese", "Ketchup", "Mayo", "Blasters"}, 14.50, 1);
-
-            MenuItem addMenuItem1 = new MenuItem("Supreme Pizza", "Hand Tossed, Wood Fired Hand Pizza", new List<string> { "Medium Hand Tossed Crust",
-            "Cheese", "Tomato Sauce", "Pepporoni", "Suasage", "Black Olives"}, 15.75, 2);
-
-            _testMenuRepo.AddMenuItem(addMenuItem);
-            _testMenuRepo.AddMenuItem(addMenuItem1);
-
-            _testMenuRepo.CopyItemByIdToIdNum(1, 2);
-
-            MenuItem isMenuItem1 = _testMenuRepo.GetByItemNumber(2);
-
-            string isMenuItem1Str = isMenuItem1.ItemName;
-            string blankMenuItemStr = addMenuItem.ItemName;
-
-            Assert.AreNotEqual(isMenuItem1Str, blankMenuItemStr);
+            SetContentTwoItems();
             
+            // This method copies one item to another, leaving the original's values blanks.
+            _testMenuRepo.CopyItemByIdToIdNum(MenuItemTieBurger.MenuNum, menuItemPizza.MenuNum);
+
+            MenuItem isMenuItem1 = _testMenuRepo.GetByItemNumber(MenuItemTieBurger.MenuNum);
+
+            Assert.AreNotEqual(isMenuItem1.ItemName, itemNameTie);
         }
 
         [TestMethod]
         public void UpdateExistingIdTest()
         {
-            _testMenuRepo = new MenuRepository();
+            SetContentOneItem();
 
-            MenuItem addMenuItem = new MenuItem("Tie Burger", "Empire Flavored TIE Fighter Burger", new List<string> {"Metal Bun", "1/4LB Tie Beef",
-            "Cheese", "Ketchup", "Mayo", "Blasters"}, 14.50, 1);
+            bool ifTrue = _testMenuRepo.UpdateExistingId(MenuItemTieBurger.MenuNum, menuItemPizza);
 
-            MenuItem addMenuItem1 = new MenuItem("Supreme Pizza", "Hand Tossed, Wood Fired Hand Pizza", new List<string> { "Medium Hand Tossed Crust",
-            "Cheese", "Tomato Sauce", "Pepporoni", "Suasage", "Black Olives"}, 15.75, 1);
-
-            _testMenuRepo.AddMenuItem(addMenuItem);
-
-            bool ifTrue = _testMenuRepo.UpdateExistingId(1, addMenuItem1);
-
-            MenuItem isMenuItem = _testMenuRepo.GetByItemNumber(1);
-
-            string isMenuItemStr = isMenuItem.ItemName;
-
-            Assert.AreEqual(isMenuItemStr, "Supreme Pizza");
+            MenuItem isMenuItem = _testMenuRepo.GetByItemNumber(MenuItemTieBurger.MenuNum);
+            
+            Assert.AreNotEqual(itemNameTie, isMenuItem.ItemName);
         }
 
         [TestMethod]
         public void UpdateExistingNameTest()
         {
-            _testMenuRepo = new MenuRepository();
+            SetContentOneItem();
 
-            MenuItem addMenuItem = new MenuItem("Tie Burger", "Empire Flavored TIE Fighter Burger", new List<string> {"Metal Bun", "1/4LB Tie Beef",
-            "Cheese", "Ketchup", "Mayo", "Blasters"}, 14.50, 1);
+            bool ifTrue = _testMenuRepo.UpdateExistingName(itemNameTie, menuItemPizza);
 
-            MenuItem addMenuItem1 = new MenuItem("Supreme Pizza", "Hand Tossed, Wood Fired Hand Pizza", new List<string> { "Medium Hand Tossed Crust",
-            "Cheese", "Tomato Sauce", "Pepporoni", "Suasage", "Black Olives"}, 15.75, 2);
+            MenuItem isMenuItem = _testMenuRepo.GetByItemName(itemNamePizza);
 
-            _testMenuRepo.AddMenuItem(addMenuItem);
-
-            bool ifTrue = _testMenuRepo.UpdateExistingName("Tie Burger", addMenuItem1);
-
-            MenuItem isMenuItem = _testMenuRepo.GetByItemName("Supreme Pizza");
-
-            string isMenuItemStr = isMenuItem.ItemName;
-            string actualItemName = addMenuItem1.ItemName;
-
-            Assert.AreEqual(isMenuItemStr, actualItemName);
-           
+            Assert.AreEqual(isMenuItem.ItemName, itemNamePizza);
         }
 
         [TestMethod]
         public void RemoveMenuItemByIdTest()
         {
-            _testMenuRepo = new MenuRepository();
+            SetContentOneItem();
 
-            MenuItem addMenuItem = new MenuItem("Tie Burger", "Empire Flavored TIE Fighter Burger", new List<string> {"Metal Bun", "1/4LB Tie Beef",
-            "Cheese", "Ketchup", "Mayo", "Blasters"}, 14.50, 1);
+            bool ifTrue = _testMenuRepo.RemoveMenuItemById(MenuItemTieBurger.MenuNum);
 
-            _testMenuRepo.AddMenuItem(addMenuItem);
+            MenuItem itemName = _testMenuRepo.GetByItemName(itemNameTie);
 
-            bool ifTrue = _testMenuRepo.RemoveMenuItemById(1);
-
-            Assert.IsTrue(ifTrue);
+            Assert.IsNull(itemName);
         }
 
         [TestMethod]
         public void RemoveMenuItemByNameTest()
         {
-            _testMenuRepo = new MenuRepository();
+            SetContentOneItem();
 
-            MenuItem addMenuItem = new MenuItem("Tie Burger", "Empire Flavored TIE Fighter Burger", new List<string> {"Metal Bun", "1/4LB Tie Beef",
-            "Cheese", "Ketchup", "Mayo", "Blasters"}, 14.50, 1);
+            _testMenuRepo.RemoveMenuItemByName(itemNameTie);
 
-            _testMenuRepo.AddMenuItem(addMenuItem);
-
-            _testMenuRepo.RemoveMenuItemByName("Tie Burger");
-
-            MenuItem isMenuItem = _testMenuRepo.GetByItemName("Tie Burger");
+            MenuItem isMenuItem = _testMenuRepo.GetByItemName(itemNameTie);
 
             Assert.IsNull(isMenuItem);
         }
@@ -155,79 +107,57 @@ namespace OneMenuTests
         [TestMethod]
         public void GetByItemNameTest() {
 
-            _testMenuRepo = new MenuRepository();
+            SetContentOneItem();
+            
+            MenuItem isMenuItem = _testMenuRepo.GetByItemName(itemNameTie);
 
-            MenuItem addMenuItem = new MenuItem("Tie Burger", "Empire Flavored TIE Fighter Burger", new List<string> {"Metal Bun", "1/4LB Tie Beef",
-            "Cheese", "Ketchup", "Mayo", "Blasters"}, 14.50, 1);
-
-            _testMenuRepo.AddMenuItem(addMenuItem);
-
-            MenuItem isMenuItem = _testMenuRepo.GetByItemName("Tie Burger");
-
-            string isMenuItemStr = isMenuItem.ItemName;
-
-            Assert.AreEqual(isMenuItemStr, "Tie Burger");
+            Assert.AreEqual(isMenuItem.ItemName, itemNameTie);
         }
 
         [TestMethod]
         public void GetByItemNumberTest()
         {
-            _testMenuRepo = new MenuRepository();
+            SetContentOneItem();
 
-            MenuItem addMenuItem = new MenuItem("Tie Burger", "Empire Flavored TIE Fighter Burger", new List<string> {"Metal Bun", "1/4LB Tie Beef",
-            "Cheese", "Ketchup", "Mayo", "Blasters"}, 14.50, 1);
+            MenuItem isMenuItem = _testMenuRepo.GetByItemNumber(MenuItemTieBurger.MenuNum);
 
-            _testMenuRepo.AddMenuItem(addMenuItem);
-
-            MenuItem isMenuItem = _testMenuRepo.GetByItemNumber(1);
-
-            string isMenuItemStr = isMenuItem.ItemName;
-
-            Assert.AreEqual(isMenuItemStr, "Tie Burger");
+            Assert.AreEqual(isMenuItem.ItemName, itemNameTie);
         }
 
         [TestMethod]
         public void GetItemNameCountTest()
         {
-            _testMenuRepo = new MenuRepository();
-
-            MenuItem addMenuItem = new MenuItem("Tie Burger", "Empire Flavored TIE Fighter Burger", new List<string> {"Metal Bun", "1/4LB Tie Beef",
-            "Cheese", "Ketchup", "Mayo", "Blasters"}, 14.50, 1);
-
-            MenuItem addMenuItem1 = new MenuItem("Supreme Pizza", "Hand Tossed, Wood Fired Hand Pizza", new List<string> { "Medium Hand Tossed Crust",
-            "Cheese", "Tomato Sauce", "Pepporoni", "Suasage", "Black Olives"}, 15.75, 2);
-
-            _testMenuRepo.AddMenuItem(addMenuItem);
-            _testMenuRepo.AddMenuItem(addMenuItem1);
+            SetContentTwoItems();
 
             int isMenuItemCount = _testMenuRepo.GetItemNameCount();
 
-            Assert.AreEqual(isMenuItemCount, 2);
+            Assert.AreEqual(isMenuItemCount, menuItemPizza.MenuNum);
         }
 
         [TestMethod]
         public void SetMenuIdTest()
         {
-            _testMenuRepo = new MenuRepository();
-
-            MenuItem addMenuItem = new MenuItem("Tie Burger", "Empire Flavored TIE Fighter Burger", new List<string> {"Metal Bun", "1/4LB Tie Beef",
-            "Cheese", "Ketchup", "Mayo", "Blasters"}, 14.50, 0);
-
-            MenuItem addMenuItem1 = new MenuItem("Supreme Pizza", "Hand Tossed, Wood Fired Hand Pizza", new List<string> { "Medium Hand Tossed Crust",
-            "Cheese", "Tomato Sauce", "Pepporoni", "Suasage", "Black Olives"}, 15.75, 0);
-
-            _testMenuRepo.AddMenuItem(addMenuItem);
-            _testMenuRepo.AddMenuItem(addMenuItem1);
+            SetContentTwoItems();
 
             _testMenuRepo.SetMenuId();
 
-            MenuItem menuItem = _testMenuRepo.GetByItemNumber(1);
+            MenuItem menuItem = _testMenuRepo.GetByItemNumber(MenuItemTieBurger.MenuNum);
 
-            int isMenuItemNum = menuItem.MenuNum;
-
-            Assert.AreEqual(isMenuItemNum, 1);
-
+            Assert.AreEqual(menuItem.MenuNum, MenuItemTieBurger.MenuNum);
         }
 
+        //Helper methods
+        private void SetContentOneItem()
+        {
+            _testMenuRepo = new MenuRepository();
+            _testMenuRepo.AddMenuItem(MenuItemTieBurger);
+        }
+
+        private void SetContentTwoItems()
+        {
+            _testMenuRepo = new MenuRepository();
+            _testMenuRepo.AddMenuItem(MenuItemTieBurger);
+            _testMenuRepo.AddMenuItem(menuItemPizza);
+        }
     }
 }

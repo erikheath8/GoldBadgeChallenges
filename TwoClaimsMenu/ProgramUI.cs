@@ -65,28 +65,21 @@ namespace TwoClaimsMenu
         {
             Queue<Claim> copyOfClaim = new Queue<Claim>(localQueue);
 
-            string t1 = "ID#  ";
+            string t1 = "ID# ";
             string t2 = "Type";
-            string t3 = "   Description";
-            string t4 = "  Amount";
-            string t5 = "  DateOfIncident";
-            string t6 = "  DateOfClaim";
-            string t7 = "  IsValid";
+            string t3 = "Description";
+            string t4 = "Amount";
+            string t5 = "DateOfIncident";
+            string t6 = "DateOfClaim";
+            string t7 = "IsValid";
 
             Console.Clear();
-            Console.WriteLine($"\n{t1} {t2,-15} {t3,-30} {t4,-10} {t5,-20} {t6,-15} {t7,-10}");
+            Console.WriteLine($"\n{t1,-5} {t2,-5} {t4,-7} {t5,-12} {t6,-10} {t7,-10} {t3,-20}");
             
             foreach (Claim claim in copyOfClaim)
            {
-                string f1 = Convert.ToString(claim.ClaimID);
-                string f2 = claim.ClaimType;
-                string f3 = claim.Description;
-                string f4 = Convert.ToString(claim.Amount);
-                string f5 = claim.DateOfIncident;
-                string f6 = claim.DateOfClaim;
-                string f7 = Convert.ToString(claim.IsValid);
-                                
-                Console.WriteLine($"\n{f1,-5} {f2,-18} {f3,-30} {f4,-10} {f5,-20} {f6,-15} {f7,-10}");
+                Console.WriteLine($"\n{claim.ClaimID} {claim.ClaimType, 8}  {claim.Amount,-8} {claim.DateOfIncident,-15}" +
+                    $" {claim.DateOfClaim,-10} {claim.IsValid,-10} {claim.Description,-20}");
             }
         }
         private void HandleNextClaim()
