@@ -1,9 +1,0 @@
-C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\TwoClaimRepository\bin\Debug\netstandard2.0\TwoClaimRepository.deps.json
-C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\TwoClaimRepository\bin\Debug\netstandard2.0\TwoClaimRepository.dll
-C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\TwoClaimRepository\bin\Debug\netstandard2.0\TwoClaimRepository.pdb
-C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\TwoClaimRepository\obj\Debug\netstandard2.0\TwoClaimRepository.csprojAssemblyReference.cache
-C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\TwoClaimRepository\obj\Debug\netstandard2.0\TwoClaimRepository.AssemblyInfoInputs.cache
-C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\TwoClaimRepository\obj\Debug\netstandard2.0\TwoClaimRepository.AssemblyInfo.cs
-C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\TwoClaimRepository\obj\Debug\netstandard2.0\TwoClaimRepository.csproj.CoreCompileInputs.cache
-C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\TwoClaimRepository\obj\Debug\netstandard2.0\TwoClaimRepository.dll
-C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\TwoClaimRepository\obj\Debug\netstandard2.0\TwoClaimRepository.pdb

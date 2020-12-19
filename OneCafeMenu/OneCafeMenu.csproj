@@ -53,9 +53,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\OneMenuRepository\OneMenuRepository.csproj">
-      <Project>{b61f1962-762c-45d8-acb5-eede373a2192}</Project>
-      <Name>OneMenuRepository</Name>
+    <ProjectReference Include="..\OneMenuRepo\OneMenuRepo.csproj">
+      <Project>{bc1ab1a3-a2e6-4067-a11c-29511bda5d71}</Project>
+      <Name>OneMenuRepo</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

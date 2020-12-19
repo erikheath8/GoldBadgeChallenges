@@ -13,8 +13,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeBadgeMenu", "ThreeKomo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreeBadgeRepository", "ThreeKomodoInsuranceRepo\ThreeBadgeRepository.csproj", "{A2C4E6FD-F8DF-440D-80A7-D4A4407A64EA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OneMenuRepository", "OneMenuRepository\OneMenuRepository.csproj", "{B61F1962-762C-45D8-ACB5-EEDE373A2192}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneMenuTests", "OneMenuTests\OneMenuTests.csproj", "{4158BDCD-518B-40FB-8C1F-1F609DE3A51B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoClaimsTests", "TwoClaimsTests\TwoClaimsTests.csproj", "{92FB982E-33DF-4C5E-92BF-164DA052F503}"
@@ -33,11 +31,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FourOutingsTest", "FourOuti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiveGreetingsTest", "FiveGreetingsTest\FiveGreetingsTest.csproj", "{0B96C291-AD16-41D5-ABD7-7FE1F425726A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SixGreenPlanRepository", "SixGreenPlanRepository\SixGreenPlanRepository.csproj", "{23ABF71D-1228-444E-B855-7633382A34E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SixGreenPlanRepository", "SixGreenPlanRepository\SixGreenPlanRepository.csproj", "{23ABF71D-1228-444E-B855-7633382A34E1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SixGreenPlanMenu", "SixGreenPlanMenu\SixGreenPlanMenu.csproj", "{B3AA8872-65FC-4BD6-9C7A-270C4601D804}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SixGreenPlanTests", "SixGreenPlanTests\SixGreenPlanTests.csproj", "{05BFDABC-2254-4DE9-B453-C3D5C1DFCB86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneMenuRepo", "OneMenuRepo\OneMenuRepo.csproj", "{BC1AB1A3-A2E6-4067-A11C-29511BDA5D71}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,10 +65,6 @@ Global
 		{A2C4E6FD-F8DF-440D-80A7-D4A4407A64EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2C4E6FD-F8DF-440D-80A7-D4A4407A64EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2C4E6FD-F8DF-440D-80A7-D4A4407A64EA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B61F1962-762C-45D8-ACB5-EEDE373A2192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B61F1962-762C-45D8-ACB5-EEDE373A2192}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B61F1962-762C-45D8-ACB5-EEDE373A2192}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B61F1962-762C-45D8-ACB5-EEDE373A2192}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4158BDCD-518B-40FB-8C1F-1F609DE3A51B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4158BDCD-518B-40FB-8C1F-1F609DE3A51B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4158BDCD-518B-40FB-8C1F-1F609DE3A51B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -117,6 +113,10 @@ Global
 		{05BFDABC-2254-4DE9-B453-C3D5C1DFCB86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05BFDABC-2254-4DE9-B453-C3D5C1DFCB86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05BFDABC-2254-4DE9-B453-C3D5C1DFCB86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC1AB1A3-A2E6-4067-A11C-29511BDA5D71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC1AB1A3-A2E6-4067-A11C-29511BDA5D71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC1AB1A3-A2E6-4067-A11C-29511BDA5D71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC1AB1A3-A2E6-4067-A11C-29511BDA5D71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
