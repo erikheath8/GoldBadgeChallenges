@@ -1,0 +1,5 @@
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\SixGreenPlanRepo\bin\Debug\SixGreenPlanRepo.dll
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\SixGreenPlanRepo\bin\Debug\SixGreenPlanRepo.pdb
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\SixGreenPlanRepo\obj\Debug\SixGreenPlanRepo.csproj.CoreCompileInputs.cache
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\SixGreenPlanRepo\obj\Debug\SixGreenPlanRepo.dll
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\SixGreenPlanRepo\obj\Debug\SixGreenPlanRepo.pdb

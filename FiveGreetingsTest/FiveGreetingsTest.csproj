@@ -56,9 +56,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FiveGreetingsRepository\FiveGreetingsRepository.csproj">
-      <Project>{7842f93c-9048-492c-86cd-8b9e21d0fad9}</Project>
-      <Name>FiveGreetingsRepository</Name>
+    <ProjectReference Include="..\FiveGreetingsRepo\FiveGreetingsRepo.csproj">
+      <Project>{0f39b8d6-fc0b-4f6b-9af3-9d1188ca4ef0}</Project>
+      <Name>FiveGreetingsRepo</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

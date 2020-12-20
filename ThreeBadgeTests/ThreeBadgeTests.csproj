@@ -58,9 +58,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ThreeKomodoInsuranceRepo\ThreeBadgeRepository.csproj">
-      <Project>{a2c4e6fd-f8df-440d-80a7-d4a4407a64ea}</Project>
-      <Name>ThreeBadgeRepository</Name>
+    <ProjectReference Include="..\ThreeBadgeRepo\ThreeBadgeRepo.csproj">
+      <Project>{3dba93a4-9dda-4b94-abb7-ed7cff76d69f}</Project>
+      <Name>ThreeBadgeRepo</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

@@ -3,8 +3,8 @@ C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\S
 C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\SixGreenPlanMenu\bin\Debug\SixGreenPlanMenu.exe.config
 C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\SixGreenPlanMenu\bin\Debug\SixGreenPlanMenu.exe
 C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\SixGreenPlanMenu\bin\Debug\SixGreenPlanMenu.pdb
-C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\SixGreenPlanMenu\bin\Debug\SixGreenPlanRepository.dll
-C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\SixGreenPlanMenu\bin\Debug\SixGreenPlanRepository.pdb
 C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\SixGreenPlanMenu\obj\Debug\SixGreenPlanMenu.csproj.CopyComplete
 C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\SixGreenPlanMenu\obj\Debug\SixGreenPlanMenu.exe
 C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\SixGreenPlanMenu\obj\Debug\SixGreenPlanMenu.pdb
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\SixGreenPlanMenu\bin\Debug\SixGreenPlanRepo.dll
+C:\Users\fzr60\Documents\projects\elevenfifty\assignment\goldBadge\OneCafeMenu\SixGreenPlanMenu\bin\Debug\SixGreenPlanRepo.pdb

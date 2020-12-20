@@ -51,9 +51,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SixGreenPlanRepository\SixGreenPlanRepository.csproj">
-      <Project>{23abf71d-1228-444e-b855-7633382a34e1}</Project>
-      <Name>SixGreenPlanRepository</Name>
+    <ProjectReference Include="..\SixGreenPlanRepo\SixGreenPlanRepo.csproj">
+      <Project>{c35f932a-c45d-4ae2-8da1-08192ad98b00}</Project>
+      <Name>SixGreenPlanRepo</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
